@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Circustrein
 {
@@ -6,7 +7,8 @@ namespace Circustrein
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to the Circustrein transportmanager. Use the console to proceed.");
+            new Logic();
         }
     }
 }
